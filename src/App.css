@@ -38,13 +38,5 @@
 }
 
 button {
-  font-size: calc(10px + 2vmin);
-}
-
-
-.flex{
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  border: 1px solid red;
+  font-size: calc(7px + 1vmin);
 }
