@@ -7,7 +7,8 @@ import Products from './components/Products'
 import About from './components/About'
 import { Home } from './components/Home'
 import { Navbar } from './components/Navbar'
-import { Product } from './components/product'
+import { Product } from './components/product';
+import { Error } from './components/Error'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/products' element={<Products/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/products/:id' element={<Product/>} />
+        <Route path='*' element={<Error/>}/>
       </Routes>
     </div>
   )
